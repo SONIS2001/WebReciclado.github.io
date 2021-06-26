@@ -1,15 +1,21 @@
 
-/*.contenedor{
-  background-color: rgb(239, 202, 253);
-  width: 80%;
-  max-width: 1000px;
-  margin: 0 auto;
+.contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-width: 300px;
+  max-width: 1200px;
+  margin: auto;
 
 }
-.contenedor img {
-  width: 80%;
-  height: auto;
-}*/
+
+@media screen and (max-width:750px) {
+  .contenedor iframe{
+
+    width: auto;
+    height: auto;
+  }
+}
 nav ul {
   display: flex;
   width: 100%;
@@ -54,7 +60,7 @@ h3{
 .textoCero{
   padding top: 25px;
   color: black;
-  
+
 
 }
 .canastas{
