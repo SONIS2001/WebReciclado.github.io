@@ -39,11 +39,49 @@ font-size: 25px;
 color: #000;
 }
 h1{
+
   background-color: rgb(204, 81, 250);
   font-family:"Mystery Quest", cursive;
 }
 ul {
   list-style-type: none;
+}
+h3{
+  padding: 30px;
+  font-family:"Goudy Bookletter 1911", sans-serif;
+  margin-left: 20px;
+}
+.textoCero{
+  padding top: 25px;
+  color: black;
+  
+
+}
+.canastas{
+  margin-left: 10px;
+  display: flex;
+
+}
+
+.textoCanasta{
+  font-family:"Goudy Bookletter 1911", sans-serif;
+  border: 8px solid #FF00BA;
+  padding: 10px;
+}
+.canastas img {
+  float: right;
+  width: 350px;
+  margin-left: 20px;
+  height: auto;
+  border: 8px solid #FF00BA;
+}
+.container-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home{
+  padding: 50px;
 }
 #galeria .col-lg-4{
   padding: 25px;
@@ -87,7 +125,7 @@ footer {
 }
 
 .row img{
-  width: 30px;
+  width: 50px;
   height: 30px;
 }
 .tuto img{
