@@ -8,14 +8,36 @@
   margin: auto;
 
 }
+body {
+  margin: auto;
+}
 
-@media screen and (max-width:750px) {
+@media (max-width: 650px) {
   .contenedor iframe{
 
     width: auto;
     height: auto;
   }
+    
+    .box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
 }
+.box>*:first-child {
+    align-self: stretch;
+}
+
+    nav ul li{
+
+      padding: 0px;
+      border: groove red;
+      border-width: 6px;
+      background-color: orange;}
+  }
+
+
 nav ul {
   display: flex;
   width: 100%;
@@ -23,7 +45,7 @@ nav ul {
   flex-direction: row;
   justify-content: space-between;
   padding: 20px;
-  margin-left: 50px;
+
   margin-right: -50px;
 }
 
@@ -45,7 +67,8 @@ font-size: 25px;
 color: #000;
 }
 h1{
-
+  display: flex;
+  justify-content: center;
   background-color: rgb(204, 81, 250);
   font-family:"Mystery Quest", cursive;
 }
