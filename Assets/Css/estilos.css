@@ -1,35 +1,56 @@
 
 .contenedor{
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   width: 100%;
   min-width: 300px;
   max-width: 1200px;
-  margin: auto;
+  padding: 15px;
+
 
 }
 body {
-  margin: auto;
+  margin:0;
+	padding:0;
+	width: 100%
 }
 
 @media (max-width: 650px) {
   .contenedor iframe{
-
+    margin 15px;
     width: auto;
     height: auto;
   }
-    
+
     .box {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
   width: 200px;
+}
+
+.columnita{
+  display: flex;
+  flex-direction: column;
+
+
+
+  width: 100%;
+
+}
 }
 .box>*:first-child {
     align-self: stretch;
 }
-
-    nav ul li{
+nav{
+  justify-content: center;
+}
+    nav ul {
+      flex-direction: column;
+      justify-content:center;
+      align-content: center;
 
       padding: 0px;
       border: groove red;
@@ -67,7 +88,8 @@ font-size: 25px;
 color: #000;
 }
 h1{
-  display: flex;
+
+  display: block;
   justify-content: center;
   background-color: rgb(204, 81, 250);
   font-family:"Mystery Quest", cursive;
@@ -128,6 +150,41 @@ h3{
 .videoTuto{
   margin: 25px
 }
+.formulario{
+  width: 500px;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  box-shadow: 0 0 20px 1px rgba(0,0,0,3);
+  position: relative;
+
+}
+.formulario--titulo {
+  text-align: center;
+  margin-top: 0;
+  color: rgba(0,0,07);
+}
+.formulario--submit{
+  display: block;
+  width: 100%;
+  font-size: 1.3em;
+
+}
+.formulario--input{
+  padding: 20px;
+  border: 1px solid rgba(0,0,0,3);
+  margin-bottom: 40px;
+}
+.formulario--label{
+  padding-left: 15px;
+  position: absolute;
+  margin-top: -85px;
+  z-index: -20;
+  color: blue;
+}
+
+
 footer {
   width: 100%;
   background: #FFFF
@@ -135,7 +192,7 @@ footer {
 }
 .container-footer{
   display: flex;
-  width: 100%;
+  width: 80%;
   max-width: 1200px;
 
   padding: 20px;
@@ -147,13 +204,14 @@ footer {
   max-width: 400px;
 }
 .column2{
-  padding-left: 80px;
-  padding-right: 80px;
+  padding: 15px;
   width: 500px;
 
 }
 
 .row img{
+  display: flex;
+  flex-direction: row;
   width: 50px;
   height: 30px;
 }
