@@ -17,9 +17,9 @@ body {
 
 }
 
-@media (max-width: 350px) {
+@media (max-width: 300px) {
   .contenedor iframe{
-    margin 15px;
+    margin: 15px;
     width: auto;
     height: auto;
   }
@@ -32,6 +32,10 @@ body {
     margin-left: 50px;
     margin-right: -50px;
 
+  }
+  img {
+    width: auto;
+    height: auto;
   }
 
     .box {
@@ -98,7 +102,7 @@ h1{
 
   display: block;
   justify-content: center;
-  background-color: rgb(204, 81, 250);
+  background-color: rgb(134, 250, 151);
   font-family:"Mystery Quest", cursive;
 }
 ul {
@@ -217,11 +221,12 @@ h3{
 
 
 footer {
+  background: rgb(134, 250, 151);
   width: 100%;
-  background: #FFFF
-  box-sizing: border-box;
+
 }
 .container-footer{
+  background-color: rgba(134, 250, 151,0.8)
   display: flex;
   width: 80%;
   max-width: 1200px;
