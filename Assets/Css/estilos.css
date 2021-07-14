@@ -18,21 +18,22 @@ body {
 }
 
 @media (max-width: 300px) {
+
   .contenedor iframe{
     margin: 15px;
     width: auto;
     height: auto;
   }
+
   .nosFooter{
     display: block;
     width: 80%;
     max-width: 1200px;
-
     padding: 20px;
     margin-left: 50px;
     margin-right: -50px;
-
   }
+
   img {
     width: auto;
     height: auto;
@@ -52,23 +53,29 @@ body {
   width: 90%;
 
 }
+
 .box>*:first-child {
     align-self: stretch;
 }
+
+
 nav{
+
   justify-content: center;
+
 }
 nav ul {
       flex-direction: column;
       justify-content:center;
       align-content: center;
       padding: 0px;
-      border: groove red;
+      border: groove green;
       border-width: 6px;
-      background-color: orange;}
+
+      background-color: rgb(95, 254, 76);
 
   }
-
+}
 
 nav ul {
   display: flex;
@@ -86,7 +93,7 @@ nav li {
 float: left;
 padding: 2px 5px;
 border: 1px solid black;
-background-color: #FF4600;
+background-color: rgb(95, 254, 76);
 margin: 20px;
 
 border-radius: 5px;
