@@ -1,3 +1,8 @@
+body {
+  margin:20px;
+	padding: 10px;
+
+}
 
 .contenedor{
   display: flex;
@@ -10,21 +15,16 @@
 
 
 }
-body {
-  margin:20px;
-	padding: 10px;
-	width: 100%
 
-}
 nav ul {
   display: flex;
   width: 100%;
-  max-width: 1200px;
+
   flex-direction: row;
   justify-content: space-between;
   padding: 20px;
 
-  margin-right: -50px;
+
 }
 
 nav li {
@@ -66,7 +66,7 @@ h3{
 
 }
 .canastas{
-  margin-left: 10px;
+  margin: 10px;
   display: flex;
 
 }
@@ -77,6 +77,7 @@ h3{
   border: 8px solid #17C203;
   padding: 10px;
 }
+
 .canastas img {
 
   float: right;
@@ -168,31 +169,31 @@ h3{
 }
 
 
-footer {
-  background: rgb(134, 250, 151);
-  width: 100%;
 
-}
 .container-footer{
-  background-color: rgba(134, 250, 151,0.8);
+  background-color: rgb(134, 250, 151);
   display:inline-flex;
-  width: 80%;
-  max-width: 1200px;
+  justify-content: center;
+  
 
-  padding: 20px;
-  margin-left: 50px;
-  margin-right: -50px;
+  margin: 50px;
+
 
 }
 .column1{
-  max-width: 400px;
+  max-width: 30%;
 }
 .column2{
+  display: flex;
+  justify-content: center;
   padding: 15px;
-  width: 300px;
+  width: 30%;
 
 }
-
+.row {
+  display: flex;
+  justify-content: center;
+}
 .row img{
   display: flex;
   flex-direction: row;
@@ -205,13 +206,15 @@ footer {
 }
 
 .row a{
-  margin-top: 10px;
-margin-left: 10px;
+  margin: 10px;
+
 }
 .column3{
-  width: 300px;
+
+  width: 30%;
 }
 .column3 img{
-  width: 35px;
+
+  width: 58px;
   height: 35px;
 }
