@@ -228,6 +228,8 @@ h3{
   width: 58px;
   height: 35px;
 }
+/*Responsive*/
+
 @media screen and (max-width:640px) {
   .canastas img{
     width: 100%;
@@ -241,12 +243,22 @@ h3{
     max-width: 100%;
     text-align: center;
   }
-  .column3 {
-    max-width: 100%;
+  .column3{
+    width: 100%;
     text-align: center;
-
+    margin: auto;
   }
-  
+  nav {
+    width: 80%;
+    height: 100%;
+    margin:0;
+    position: fixed;
+    background-color:#DAF7A6;
+  }
+  nav ul{
+    display: block;
+  }
+
 
   }
 
