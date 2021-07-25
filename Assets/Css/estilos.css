@@ -44,8 +44,9 @@ text-decoration: none;
 font-size: 25px;
 color: #000;
 }
-h1{
 
+h1{
+text-align: center;
   display: block;
   justify-content: center;
   background-color: rgb(134, 250, 151);
@@ -99,17 +100,25 @@ h3{
   width: auto;
   height: auto;
 }
+/*GALERIA*/
 
-#galeria .col-lg-4{
-  padding: 25px;
+.galeria {
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px;
+  margin-left: 50px;
+  float:inherit;
+  justify-content: center;
+}
+p{
+  text-align: center;
+}
+.galeria img {
+  max-width: 300px;
+  height: auto;
 }
 
-#galeria img {
-  width: 100%;
-  height: 250px;
-}
-
-#galeria img:hover {
+.galeria img:hover {
   border: 8px solid #FF00BA;
 
 }
@@ -238,6 +247,8 @@ h3{
   .container-footer{
     display: block;
     justify-content: center;
+    width: 95%;
+    margin: 0;
   }
   .column1{
     max-width: 100%;
@@ -249,17 +260,65 @@ h3{
     margin: auto;
   }
   nav {
-    width: 80%;
-    height: 100%;
+    float:none;
+    display: block;
+    width: 100%;
+    height: auto;
     margin:0;
-    position: fixed;
+
     background-color:#DAF7A6;
   }
   nav ul{
     display: block;
+    float: none;
+    width: 100%;
+
+  }
+  nav ul li{
+    display: block;
+    float: none;
+    text-align: center;
+  }
+  .galeria1{
+    width: 95%;
+  }
+  .galeria1 p{
+    width: 80%;
+
+  }
+  .galeria1 h1{
+    width: 100%;
+  box-sizing: border-box;
   }
 
+  .galeria img{
+    max-width: 300px;
+  }
+
+  .galeria {
+  display: block;
+  margin-left:0;
+  }
+
+    .textoCero1{
+      display: block;
+      justify-content: center;
+    }
+    .textoCero1 iframe{
+      width: 200px;
+      height: auto;
+  }
+  .formulario{
+    width: 100%;
+    margin-bottom: 20px;
 
   }
+  .formulario--input, .formulario--label,
+  .formulario--submit{
+    display: block;
+    width: 80%;
+    font-size: 1.3em;
+    padding-bottom: 15px;
+
 
 }
